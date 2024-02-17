@@ -1,0 +1,22 @@
+.result{
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.sorting{
+    width: full;
+
+}
+
+.sortingLeft{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.sortingRight{
+    width: 50%;
+    display: flex;
+    text-align: right;
+}

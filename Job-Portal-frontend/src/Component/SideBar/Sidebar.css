@@ -1,0 +1,83 @@
+.profilePart{
+    display: flex;
+    flex-direction: row;
+    /* align-items:center; */
+    /* justify-content: center; */
+    /* padding-top: 35px; */
+    
+}
+
+.profileDetails{
+    padding-left: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2px;
+    /* justify-content: center; */
+    text-align: left;
+
+}
+
+.profileEdit{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+}
+
+.sidebaricons{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: large;
+    margin-left: 10px;
+}
+
+
+.profileCamera{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position : 'absolute';
+    transform: translate(140%,-85%);
+    z-index: 1;
+    top: 40%;
+    right: 0%;
+    background-color: white;
+}
+
+.icon{
+    font-size: xx-large;
+    margin-right: 5px;
+}
+
+.name{
+    color: #0089c2 !important;
+    font-size: large;
+}
+
+.userAccount{
+    font-size: small;
+    padding-top: 0px;
+}
+
+.editIcon{
+    color: #0089c2 !important;
+    cursor: pointer;
+    padding-left: 2px;
+}
+
+.secondPart{
+    margin-top: 9px;
+
+}
+
+.fileInput{
+    display: none;
+}
+
+.page{
+    overflow-y: auto;
+    /* height: 400px; */
+}

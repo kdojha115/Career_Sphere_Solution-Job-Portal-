@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* transition: all .1s; */
+}
+
+.logo{
+    border-radius: 50%;
+    border: 1px;
+
+}
+
+ /* top-0 h-[100vh] IconSidebar justify-between items-center  */
+.sidebarOne{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.IconSidebar{
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    background-color: #0747a6;
+    color: white;
+    /* height: 1080px; */
+    width: 65px;
+    justify-content: space-between;
+
+}
+
+.logoBox{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.upIcon{
+    border-radius: 0;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    width: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service{
+    /* margin-top: 15px; */
+    margin-bottom: 15px;
+    
+}
+
+
+.icons{
+    /* margin-top: 100px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconDiv{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    cursor: pointer;
+    font-size: large;
+}
+
+.downIcon{
+    margin: 2px;
+}
+
+.serviceSpan{
+    padding-right: 0.15rem !important;
+    padding-left: 0.15rem !important;
+    font-size: x-small;
+    background-color: #0f9edd;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    align-items: center;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* padding-left: 12px; */
+}
+
+.icon{
+    height: 28px;
+    width: 28px;
+    /* margin-top: 10px; */
+    margin-bottom: 15px;
+    color: white;
+}

@@ -1,0 +1,249 @@
+.card{
+    /* border: solid 1px; */
+    margin-bottom: 25px;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+
+.logo{
+  border-radius: 50%;
+  border: 1px;
+  width: 40%;
+}
+
+.card:hover{
+    transform: translateY(-0.01rem);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.content{
+    text-align: left;
+    /* padding-bottom: 30px; */
+    justify-content: space-between;
+
+}
+
+.contentIcons{
+    display: flex;
+    padding-inline: 10px;
+}
+.aggrement{
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.dropdown {
+    /* position: relative; */
+    display: inline-block;
+    z-index: 1;
+    text-align: right;
+
+
+}
+
+.dots {
+    display: inline-block;
+    cursor: pointer;
+    
+}
+
+.dropdown-content {
+    /* position: absolute; */
+    z-index: 1;
+    text-align: center;
+    
+}
+
+.dropdown-content a{
+    display: block;
+    padding: 8px 16px;
+
+}
+
+.dropdown:hover {
+    /* background-color: white; */
+    border-color: #0089c2 ;
+}
+
+.btn{
+    border: solid 2px;
+    border-radius: 5px;
+    /* color: #0089c2 !important; */
+    border-color: #0089c2 !important;
+    padding: 5px;
+    margin: 2px;
+}
+
+.btn:hover{
+    transform: translateY(-0.05rem);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.list{
+    color: gray;
+    border: solid 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding: 1px;
+    cursor: pointer;
+    border-color: #0089c2;
+
+}
+
+.contentDetail{
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+    color: purple;
+    
+}
+
+.rainbow {
+
+    /* z-index: 1; */
+     /* transform: translateY(-0.05rem); */
+
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+    /* text-shadow: #0089c2; */
+
+    font-size:xxx-large;
+
+    /* Chrome, Safari, Opera */
+    -webkit-animation: rainbow 25s infinite;
+    /* Internet Explorer */
+    -ms-animation: rainbow 25s infinite;
+    /* Standar Syntax */
+    animation: rainbow 25s infinite;
+  }
+  
+  
+  /* Chrome, Safari, Opera */
+  
+  @-webkit-keyframes rainbow {
+    0% {
+      color: orange;
+      /* transform: rotate(180deg); */
+    }
+    10% {
+      color: purple;
+    }
+    20% {
+      color: red;
+    }
+    30% {
+      color: CadetBlue;
+    }
+    40% {
+      color: rgb(149, 149, 63);
+    }
+    50% {
+      color: coral;
+    }
+    60% {
+      color: green;
+    }
+    70% {
+      color: rgb(0, 110, 255);
+    }
+    80% {
+      color: DeepPink;
+    }
+    90% {
+      color: DodgerBlue;
+    }
+    100% {
+      color: rgb(137, 99, 29);
+    }
+  }
+  
+  
+  /* Internet Explorer */
+  
+  @-ms-keyframes rainbow {
+    0% {
+      color: orange;
+      /* transform: rotate(360deg); */
+    }
+    10% {
+      color: purple;
+    }
+    20% {
+      color: red;
+    }
+    30% {
+      color: CadetBlue;
+    }
+    40% {
+      color: rgb(155, 155, 92);
+    }
+    50% {
+      color: coral;
+    }
+    60% {
+      color: green;
+    }
+    70% {
+      color: rgb(0, 110, 255);
+    }
+    80% {
+      color: DeepPink;
+    }
+    90% {
+      color: DodgerBlue;
+    }
+    100% {
+      color: rgb(156, 116, 43);
+    }
+  }
+  
+  
+  /* Standar Syntax */
+  
+  @keyframes rainbow {
+    0% {
+      color: orange;
+      /* transform: rotate(360deg); */
+    }
+    10% {
+      color: purple;
+    }
+    20% {
+      color: red;
+    }
+    30% {
+      color: CadetBlue;
+    }
+    40% {
+      color: rgb(130, 130, 52);
+    }
+    50% {
+      color: coral;
+    }
+    60% {
+      color: green;
+    }
+    70% {
+      color: rgb(0, 68, 255);
+    }
+    80% {
+      color: DeepPink;
+    }
+    90% {
+      color: DodgerBlue;
+    }
+    100% {
+      color: orange;
+    }
+  }
+
+.changableContent{
+    margin-left: 17px;
+    font-weight: bolder;
+    font-size: larger;
+}
+

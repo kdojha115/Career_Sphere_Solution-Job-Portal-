@@ -1,0 +1,97 @@
+.searchInput{
+    border: solid 1px;
+    border-radius: 4px;
+    background-color: rgb(242,242,242);
+    /* padding:  10px; */
+    font-size: 13px;
+    width: 85%;
+    /* margin-left: 10px; */
+    border-color: #0089c2 !important;
+    height: 30px;
+    /* color: #0089c2 !important; */
+}
+
+.searchText{
+    display: flex;
+    text-align: left;
+    font-size: large;
+}
+
+.searchIcon{
+    
+    border-radius: 4px;
+    border-left: 0px;
+    width: 10%;
+    border: solid 1px;
+    border-color: #0089c2 !important;
+    padding: 1px;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.socialmediacircle{
+    border: solid 1px;
+    border-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.socialmediacircle:hover{
+    
+    transform: translateY(-0.05rem);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.iconColor{
+    color: white;
+}
+
+.searchPage{
+    /* background-color: aqua; */
+    padding-top: 25px;
+    padding: 12px;
+    position: sticky;
+}
+
+.SearchBox{
+    margin-top: 85px;
+    
+}
+
+.clientBox{
+    margin-top: 40px;
+}
+
+.socialMediaBox{
+    margin-top: 40px;
+}
+.clientHeading{
+    display: flex;
+    text-align: left;
+}
+
+.dropMenu{
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100%;
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+.socialMediaText{
+    display: flex;
+    text-align: left;
+}
+
+.socialMediaIcon{
+    display: flex;
+    padding: 5px;
+    border: solid 2px;
+    background-color: #0747a6;
+}

@@ -1,0 +1,10 @@
+.jobsdetails{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+button{
+    color: white;
+    font-weight: 600;
+}
